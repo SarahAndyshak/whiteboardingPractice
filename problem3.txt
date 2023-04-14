@@ -1,0 +1,51 @@
+// write an algorithm that takes a string with repeated charaters
+// uses number to show repetition
+// aaa = 3a
+// solve the problem with/out recursion
+// input aaabccddda
+// output 3ab2c4da
+
+// thought process:
+// - edge case no integers, just Characts
+// - case sensitive, toLowerCase()
+// - need loops
+// - using a counter to count the letters
+
+function compressed(input) {
+  let counter = 0;
+  let inputString = input.toLowerCase();
+
+  if(inputString.contains(int)){
+    return;
+  } else if {
+    for(let i = 0; i < inputString.length; i++){
+      const currentChar = [i];
+      const prevChar = [i-1];
+      if (currentChar === prevChar){
+        counter++;
+      }
+    } return counter;
+  } // output the number from counter which will be attached to letter of currentChar
+    // return(counter + currentChar.value) 3 + "a"
+}
+compressed(input);
+
+// recursion
+// base case: nextChar = ""
+//termination case: no integers
+
+const compressedRecur = (input) => {
+  const currentChar = [i];
+  const nextChar = [i+1];
+  const prevChar = [i-1];
+  let counter = 0;
+  let inputString = input.toLowerCase();
+
+  if(input.contains(int)){
+    return;
+  }
+  // concatenation of letters and numbers
+    // repeat function through the entire string
+      // innermost function: loop checking characters against each other
+}
+compressedRecur(input);
